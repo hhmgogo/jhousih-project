@@ -1,7 +1,7 @@
 
 import React, { useState } from 'react'
-import Nav from '@/Components/Nav'
-import MobileNav from '@/Components/MobileNav';
+import Nav from '../Components/Nav'
+import MobileNav from '../Components/MobileNav';
 
 
 const HomePage = () => {
@@ -16,6 +16,7 @@ const HomePage = () => {
       <div>
         {/* Navbar */}
         <MobileNav nav={nav} closeNav={closeNav} />
+
         <Nav openNav={openNav} />
       </div>
     </div>
