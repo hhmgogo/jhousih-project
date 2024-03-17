@@ -6,21 +6,12 @@
 
 // export default nextConfig;
 
-// /** @type {import('next').NextConfig} */
-// const nextConfig = {
-//   output: {
-//     export: true,
-//   },
-//   reactStrictMode: true,
-// };
-
-// export default nextConfig;
-
-// next.config.mjs
-
-export default {
+/** @type {import('next').NextConfig} */
+const nextConfig = {
   output: {
-    dir: "out", // 將輸出目錄設置為 'out'
+    export: true,
   },
   reactStrictMode: true,
 };
+
+export default nextConfig;
