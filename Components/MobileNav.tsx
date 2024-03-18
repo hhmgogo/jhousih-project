@@ -7,7 +7,7 @@ interface Props {
     nav: boolean; //這是做關鍵字宣告，宣告 name這關鍵字為string
     closeNav: () => void; //這是宣告openNav為一個方法
 }
-
+// 
 //將interface的Property 和method 帶入並實作
 const MobileNav = ({ nav, closeNav }: Props) => {
 
