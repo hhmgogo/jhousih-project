@@ -81,10 +81,7 @@ jobs:
         uses: actions/upload-pages-artifact@v3
         with:
           path: ./out
-      - name: Build static page
-        run: |
-         npm run build
-         touch ./out/.nojekyll  
+     
   # Deployment job
   deploy:
     environment:
