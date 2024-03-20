@@ -1,15 +1,7 @@
 /** @type {import('next').NextConfig} */
-
-const isProd = process.env.NODE_ENV === "production";
-// const assetPrefix =
-//   process.env.NODE_ENV === "production" ? "/jhousih-project" : "";
 const nextConfig = {
-  output: isProd ? "export" : undefined,
+  output: "export",
   reactStrictMode: true,
-  assetPrefix: isProd
-    ? "https:///hhmgogo.github.io/jhousih-project/"
-    : undefined,
-  // basePath: "/jhousih-project",
-  // assetPrefix: "/jhousih-project/",
+  assetPrefix: "https:///hhmgogo.github.io/jhousih-project/",
 };
 export default nextConfig;
