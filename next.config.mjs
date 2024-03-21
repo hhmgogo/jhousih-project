@@ -10,16 +10,10 @@
 //     : undefined,
 // };
 // export default nextConfig;
-
+/** @type {import('next').NextConfig} */
 const nextConfig = {
-  // Other Next.js configuration options...
-
-  // 添加 output: export
-  output: {
-    // 添加 export 選項
-    export: {
-      // 在此處添加任何進一步的選項或配置
-    },
-  },
+  output: "export", // Outputs a Single-Page Application (SPA).
+  distDir: "./out", // Changes the build output directory to `./dist/`.
 };
+
 export default nextConfig;
